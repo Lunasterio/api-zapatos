@@ -29,3 +29,25 @@ export const addZapato = (req, res) => {
     writeData(data);
     res.json(newZapato);
   };
+
+  export const deleteZapato = (req, res) => {
+    const data = readData();
+    const id = parseInt(req.params.id);
+    const zapatoIndex = data.zapatos.findIndex((zapato) => zapato.id === id);
+    data.zapatos.splice(zapatoIndex, 1);
+    writeData(data);
+    res.json({ message: "Zapato eliminado correctamente" });
+  };
+
+  export const updateZapato = (req, res) => {
+    const data = readData();
+    const body = req.body;
+    const id = parseInt(req.params.id);
+    const zapatoIndex = data.zapatos.findIndex((zapato) => zapato.id === id);
+    data.zapatos[zapatoIndex] = {
+      ...data.zapatos[zapatoIndex],
+      ...body,
+    };
+    writeData(data);
+    res.json({ message: "Book updated successfully" });
+  };
