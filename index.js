@@ -19,7 +19,6 @@ app.get("/zapatos", getZapatos);
 
 app.post("/zapatos/add", addZapato);
 
-
 app.delete("/zapatos/:id", deleteZapato);
 
 app.put("/zapatos/:id", updateZapato);

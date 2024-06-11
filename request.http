@@ -14,7 +14,6 @@ Content-Type: application/json
 }
 
 ###
-
 DELETE http://localhost:2006/zapatos/9 HTTP/1.1
 
 ###
