@@ -1,7 +1,7 @@
 {
     "zapatos": [
         {
-            "id": 1,
+            "id": 0,
             "nombre": "Zapatos Oxford Wingtip",
             "descripcion": "Zapatos Oxford de cuero negro con punta estilo wingtip y detalles perforados en el empeine.",
             "img": "https://raw.githubusercontent.com/66Willy99/proyecto-zapateria/main/assets/img/Allen_Edmonds_Park_Avenue.png",
@@ -14,7 +14,7 @@
             }
         },
         {
-            "id": 2,
+            "id": 1,
             "nombre": "Monkstrap de Doble Hebilla",
             "descripcion": "Zapatos monkstrap de cuero marrón oscuro con doble hebilla y detalle de punta redondeada.",
             "img": "https://raw.githubusercontent.com/66Willy99/proyecto-zapateria/main/assets/img/Magnanni_Marco.png",
@@ -27,7 +27,7 @@
             }
         },
         {
-            "id": 3,
+            "id": 2,
             "nombre": "Loafers de Borlas",
             "descripcion": "Loafers de cuero negro con detalle de borlas en la parte delantera y suela de cuero.",
             "img": "https://raw.githubusercontent.com/66Willy99/proyecto-zapateria/main/assets/img/Gucci_Horsebit.png",
@@ -41,7 +41,7 @@
             }
         },
         {
-            "id": 4,
+            "id": 3,
             "nombre": "Derby Cap Toe",
             "descripcion": "Zapatos Derby de cuero café oscuro con punta cap toe y cierre de cordones.",
             "img": "https://raw.githubusercontent.com/66Willy99/proyecto-zapateria/main/assets/img/Johnston___Murphy_Melton.png",
@@ -55,7 +55,7 @@
             }
         },
         {
-            "id": 5,
+            "id": 4,
             "nombre": "Zapatos Brogue Medallion",
             "descripcion": "Zapatos Brogue de cuero marrón con detalle de medallón en la punta y perforaciones decorativas.",
             "img": "https://raw.githubusercontent.com/66Willy99/proyecto-zapateria/main/assets/img/Zapatos_Brogue_Medallion-removebg.png",
@@ -68,7 +68,7 @@
             }
         },
         {
-            "id": 6,
+            "id": 5,
             "nombre": "Oxfords Plain Toe",
             "descripcion": "Zapatos Oxford de cuero negro con punta lisa y cierre de cordones.",
             "img": "https://raw.githubusercontent.com/66Willy99/proyecto-zapateria/main/assets/img/Oxfords_Plain_Toe-removebg.png",
@@ -82,7 +82,7 @@
             }
         },
         {
-            "id": 7,
+            "id": 6,
             "nombre": "Zapatos de Vestir Wholecut",
             "descripcion": "Zapatos de vestir wholecut de cuero marrón oscuro con diseño sin costuras y suela de cuero.",
             "img": "https://raw.githubusercontent.com/66Willy99/proyecto-zapateria/main/assets/img/Wholecut_Barker_Shoes_Abbey-removebg.png",
@@ -96,7 +96,7 @@
             }
         },
         {
-            "id": 8,
+            "id": 7,
             "nombre": "Zapatos Penny Loafer",
             "descripcion": "Penny loafers de cuero negro con detalle de abertura en la parte delantera y suela de cuero.",
             "img": "https://raw.githubusercontent.com/66Willy99/proyecto-zapateria/main/assets/img/Penny_Loafer-removebg.png",
@@ -110,7 +110,7 @@
             }
         },
         {
-            "id": 9,
+            "id": 8,
             "nombre": "Prueba",
             "descripcion": "Prueba",
             "modelo": "Prueba",

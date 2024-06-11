@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import bodyParser from "body-parser";
 
-import { getZapatos, addZapato, deleteZapato, updateZapato } from './controllers/controllers-zapatos.js';
+import { getZapatos,getZapato, addZapato, deleteZapato, updateZapato } from './controllers/controllers-zapatos.js';
 
 const app = express();
 const puerto = 2006;
@@ -16,6 +16,8 @@ app.get("/", (req, res) => {
 });
 
 app.get("/zapatos", getZapatos);
+
+app.get("/zapatos/:id", getZapato);
 
 app.post("/zapatos/add", addZapato);
 

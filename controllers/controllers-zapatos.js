@@ -10,6 +10,18 @@ export const getZapatos = (req, res) => {
     res.json(data.zapatos);
 };
 
+export const getZapato = (req, res) => {
+  const data = readData();
+  const zapatoIndex = req.params.id; // Obtiene el índice del zapato de la solicitud
+
+  if (zapatoIndex >= 0 && zapatoIndex < data.zapatos.length) {
+    const zapato = data.zapatos[zapatoIndex];
+    res.json(zapato); // Devuelve solo el zapato especificado
+  } else {
+    res.json({ status: 404, mensaje: 'Zapato no encontrado' }); // Indica error si el índice es inválido
+  }
+};
+
 const writeData = (data) => {
     try {
       fs.writeFileSync("./zapatos.json", JSON.stringify(data));
