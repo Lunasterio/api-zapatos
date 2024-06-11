@@ -1,0 +1,16 @@
+{
+  "name": "api-zapatos",
+  "version": "1.0.0",
+  "description": "Api zapatos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Grupo 2",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.3"
+  }
+}
