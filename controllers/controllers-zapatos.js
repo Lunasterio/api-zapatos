@@ -49,5 +49,5 @@ export const addZapato = (req, res) => {
       ...body,
     };
     writeData(data);
-    res.json({ message: "Book updated successfully" });
+    res.json({ message: "Zapato actualizado correctamente" });
   };
