@@ -1,10 +1,13 @@
 import express from 'express';
 import fs from "fs";
+import cors from 'cors';
 
 import { readData } from './controllers/controllers-zapatos.js';
 
 const app = express();
 const puerto = 2006;
+
+app.use(cors({ origin: '*' }));
 
 app.get("/", (req, res) => {
     res.send("Api arriba");
