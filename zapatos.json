@@ -7,7 +7,7 @@
             "img": "https://raw.githubusercontent.com/66Willy99/proyecto-zapateria/main/assets/img/Allen_Edmonds_Park_Avenue.png",
             "modelo": "Allen Edmonds Park Avenue",
             "precioReferencial": 350,
-            "stock": 5,
+            "stock": 3,
             "detalles": {
                 "material": "Cuero de becerro de primera calidad",
                 "suela": "Suela de cuero con inserción de goma para mayor tracción"
@@ -20,7 +20,7 @@
             "img": "https://raw.githubusercontent.com/66Willy99/proyecto-zapateria/main/assets/img/Magnanni_Marco.png",
             "modelo": "Magnanni Marco",
             "precioReferencial": 400,
-            "stock": 3,
+            "stock": 0,
             "detalles": {
                 "material": "Cuero de becerro italiano",
                 "suela": "Suela de cuero con acabado pulido"
@@ -107,18 +107,6 @@
                 "material": "Cuero de becerro pulido",
                 "suela": "Suela de goma con detalles de tacos",
                 "plantilla": "Plantilla de cuero acolchada con logo impreso"
-            }
-        },
-        {
-            "id": 8,
-            "nombre": "Prueba",
-            "descripcion": "Prueba",
-            "modelo": "Prueba",
-            "precioReferencial": 2222,
-            "stock": 8,
-            "detalles": {
-                "material": "Prueba",
-                "suela": "Prueba"
             }
         }
     ]
